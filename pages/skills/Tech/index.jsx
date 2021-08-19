@@ -4,7 +4,7 @@ import globalStyles from '../../../styles/styles.module.scss';
 import FadeInWhenVisible from '../../../lib/components/fade-in-visible';
 import useWindowSize from '../../../lib/hooks/window-size';
 import { BsFillInfoCircleFill } from 'react-icons/bs';
-
+import Image from 'next/image';
 
 export const Tech = () => {
   const gridItems = [
