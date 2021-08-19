@@ -1,0 +1,12 @@
+.container {
+    margin: 0 10vw;
+    position: relative;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 60px);
+    justify-content: space-between;
+  }
+  

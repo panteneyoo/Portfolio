@@ -1,0 +1,82 @@
+$nav-font: Helvetica; 
+
+.navStyle {
+  font-family: $nav-font;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.subtitleStyle {
+  font-family: PT Sans;
+  font-size: 24px;
+  opacity: 64%;
+  font-style: italic;
+  font-weight: 100;
+  margin: 12px 0;
+}
+
+.headerStyle {
+  font-family: PT Sans;
+  font-size: 60px;
+  opacity: 63%;
+  font-weight: 100;
+}
+
+.annotationStyle {
+  font-family: PT Sans;
+  font-weight: 700;
+  opacity: 67%;
+}
+
+.infoStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 135px;
+  opacity: 67%;
+  font-size: 14px;
+  font-family: PT Sans;
+}
+
+.contentPadding {
+  padding-left: 45px;
+}
+
+@media (max-width: 748px) {
+  .subtitleStyle {
+    font-size: 16px;
+  }
+
+  .headerStyle {
+    font-size: 36px;
+  }
+
+  .annotationStyle {
+    font-size: 14px;
+  }
+
+  .infoStyle {
+    width: 125px;
+  }
+
+  .contentPadding {
+    padding-left: 0;
+  }
+}
+
+
+.hideMobile {
+  @media (max-width: 748px) {
+    display: none;
+  }
+}
+
+.hideDesktop {
+  @media not all and (max-width: 748px) {
+    display: none;
+  }
+}
+
+.delay {
+  --animate-delay: 0.5s;
+}

@@ -1,0 +1,41 @@
+.footerWrapper {
+    width:80vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    a {
+        color: black;
+    }
+  }
+  
+  .footerLabelStyle {
+    font-family: PT Sans;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+  }
+  
+  .footerMiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    transition: top 0.3s;
+  }
+  
+  .footerMiddleIcon {
+    opacity: 57%;
+  }
+  
+  .footerMiddle:hover {
+    top: -10px;
+  }
+  
+  .empty {
+    width: 70px; 
+  }
+  
+  .footerRight:hover {
+    text-decoration: underline;
+  }

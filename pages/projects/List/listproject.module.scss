@@ -1,0 +1,25 @@
+.listWrapper {
+    flex-grow: 1;
+    padding-top: 20px;
+  }
+  
+  .list {
+    list-style: none;
+    li {
+        margin: 10px 0;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+  }
+  
+  .listItem:hover {
+    text-decoration: underline;
+  } 
+  
+  @media (max-width: 748px) {
+    .listItem {
+      font-size: 18px;
+    }
+  }
