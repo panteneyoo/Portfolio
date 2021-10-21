@@ -11,7 +11,7 @@ export const Career = () => {
         pageTitle="Career History"  
         title="CAREER HISTORY"
         subtitleOne="currently working as"
-        subtitleTwo="junior full stack developer @_nology.io"
+        subtitleTwo="junior full stack developer @Accenture"
       />
       <CareerTimeline />
       <Footer 
