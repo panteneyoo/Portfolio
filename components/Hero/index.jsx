@@ -18,13 +18,13 @@ export const Hero = () => {
           </h1>
           </div>
           <div className={styles.animate__fadeInLeft}>
-            <h3 className={`${globalStyles.subtitleStyle} `}>Junior Software Developer @_nology</h3>
+            <h3 className={`${globalStyles.subtitleStyle} `}>Junior Full Stack Developer @Accenture</h3>
           </div>
           <div className={`${styles.animate__delay} ${globalStyles.delay}`}>
             <h3 className={`${globalStyles.subtitleStyle} ${styles.secondSubtitle}`}>Former AI Data Collection Specialist</h3>
           </div>
           <div className={`${styles.animate__deelay} ${globalStyles.delay}`}>
-            <h3 className={`${globalStyles.subtitleStyle} ${styles.thirdSubtitle}`}>and fresh grad @ANU</h3>
+            <h3 className={`${globalStyles.subtitleStyle} ${styles.thirdSubtitle}`}>and grad @ANU</h3>
           </div>
         </div>
         <div className={`${globalStyles.hideMobile} ${styles.portraitWrapper} ${styles.animate__fadeIn} `} >
