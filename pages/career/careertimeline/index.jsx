@@ -34,6 +34,13 @@ export const CareerTimeline = () => {
       comment: "Frontend and software development for client business after upskilling",
       date: "2021",
       state: useState(false),
+    },
+    {
+      company: "Accenture",
+      title: "Full Stack Developer",
+      comment: "Backend Java API and Frontend React Development for Codeless Automation Framework",
+      date: "2021",
+      state: useState(false),
     }
   ]
 
